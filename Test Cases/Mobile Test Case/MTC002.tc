@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Test case for adding a new partner in the Topindoku application (v3.5.2)</description>
-   <name>MTC001_create new Mitra (faker)</name>
+   <name>MTC002</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8b8ec811-94ce-4f81-bf15-2f463d3787f1</testCaseGuid>

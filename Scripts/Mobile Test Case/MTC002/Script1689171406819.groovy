@@ -16,6 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.github.javafaker.Faker as Faker
+
+Faker faker = new Faker(new Locale("in-ID"))
+String fullname = faker.name().fullName()
+String address = faker.address().fullAddress()
 
 Mobile.startExistingApplication(GlobalVariable.AppID)
 
@@ -27,70 +32,11 @@ Mobile.tap(findTestObject('Object Repository/Mobile Repository/Create New Mitra/
 Mobile.tap(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.ImageButton (add button)'), 
     0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Tambahkan Mitra'), 
-    'Tambahkan Mitra')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Nama Lengkap'), 
-    'Nama Lengkap')
-
-Mobile.verifyElementVisible(findTestObject('Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap'), 
-    0)
-
-Mobile.verifyElementText(findTestObject('Mobile Repository/Create New Mitra/android.widget.TextView - Nomor Telepon'), 'Nomor Telepon')
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon'), 
-    0)
-
-Mobile.verifyElementVisible(findTestObject('Mobile Repository/Create New Mitra/android.widget.ImageButton (contact book button)'), 
-    0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Provinsi'), 
-    'Provinsi')
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Provinsi'), 
-    0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kota'), 
-    'Kota')
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kota'), 
-    0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kecamatan'), 
-    'Kecamatan')
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kecamatan'), 
-    0)
-
-'swipe up'
-Mobile.swipe(56, 1657, 56, 371)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Alamat Mitra'), 
-    'Alamat Mitra')
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra'), 
-    0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kode POS'), 
-    'Kode POS')
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS'), 
-    0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Markup Harga'), 
-    'Markup Harga')
-
-Mobile.verifyElementVisible(findTestObject('Mobile Repository/android.widget.EditText - Masukkan markup harga'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.Button - Simpan'), 
-    0)
-
-'swipe down'
 Mobile.swipe(56, 371, 56, 1657)
 
 Mobile.tap(findTestObject('Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap'), 'nama lengkap mitra', 
+Mobile.setText(findTestObject('Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap'), fullname, 
     0)
 
 Mobile.tap(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon'), 
@@ -154,7 +100,7 @@ Mobile.tap(findTestObject('Object Repository/Mobile Repository/Create New Mitra/
     0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra'), 
-    'alamat lengkap mitra', 0)
+    address, 0)
 
 Mobile.hideKeyboard()
 

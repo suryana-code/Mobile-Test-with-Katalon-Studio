@@ -18,12 +18,15 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.github.javafaker.Faker as Faker
 
-Faker faker = new Faker(new Locale("in-ID"))
-String fullname = faker.name().fullName()
-String phonenum = faker.phoneNumber().phoneNumber()
-String address = faker.address().fullAddress()
-
 Mobile.startExistingApplication(GlobalVariable.AppID)
+
+Faker faker = new Faker(new Locale('in-ID'))
+
+String fullname = faker.name().fullName()
+
+String phonenum = faker.phoneNumber().phoneNumber()
+
+String address = faker.address().fullAddress()
 
 Mobile.tap(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kemitraan'), 0)
 
