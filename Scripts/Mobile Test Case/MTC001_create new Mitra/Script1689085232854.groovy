@@ -181,5 +181,3 @@ Mobile.setText(findTestObject('Mobile Repository/android.widget.EditText - Masuk
 
 Mobile.hideKeyboard()
 
-Mobile.closeApplication()
-
