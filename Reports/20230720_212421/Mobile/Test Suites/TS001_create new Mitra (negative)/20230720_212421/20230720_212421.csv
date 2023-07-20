@@ -1,0 +1,124 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS001_create new Mitra (negative),,,,2023-07-20 21:24:30,2023-07-20 21:26:31,2m - 0.908s,PASSED
+,,,,,,,
+Test Cases/Mobile Test Case/MTC001_create new Mitra (negative),,,,2023-07-20 21:24:30,2023-07-20 21:26:31,2m - 0.570s,PASSED
+faker = new com.github.javafaker.Faker(new java.util.Locale(in-ID)),,,,2023-07-20 21:24:31,2023-07-20 21:24:31,0.024s,PASSED
+fullname = name().fullName(),,,,2023-07-20 21:24:31,2023-07-20 21:24:31,0.152s,PASSED
+phonenum = phoneNumber().phoneNumber(),,,,2023-07-20 21:24:31,2023-07-20 21:24:31,0.009s,PASSED
+"phonenum = phonenum.replace(""-"", """")",,,,2023-07-20 21:24:31,2023-07-20 21:24:31,0.002s,PASSED
+"phonenum = phonenum.replace(""+62"", ""0"")",,,,2023-07-20 21:24:31,2023-07-20 21:24:31,0.001s,PASSED
+"phonenum = phonenum.replace(""080"", ""088"")",,,,2023-07-20 21:24:31,2023-07-20 21:24:31,0.002s,PASSED
+address = address().fullAddress(),,,,2023-07-20 21:24:31,2023-07-20 21:24:31,0.156s,PASSED
+startExistingApplication(AppID),,,,2023-07-20 21:24:31,2023-07-20 21:24:44,12.856s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kemitraan""), 0)",,,,2023-07-20 21:24:44,2023-07-20 21:24:55,11.047s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Mitra Saya""), 0)",,,,2023-07-20 21:24:55,2023-07-20 21:24:56,0.389s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.ImageButton (add button)""), 0)",,,,2023-07-20 21:24:56,2023-07-20 21:24:58,1.789s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Tambahkan Mitra""), ""Tambahkan Mitra"")",,,,2023-07-20 21:24:58,2023-07-20 21:24:58,0.286s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Nama Lengkap""), ""Nama Lengkap"")",,,,2023-07-20 21:24:58,2023-07-20 21:24:58,0.277s,PASSED
+"verifyElementVisible(findTestObject(""Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap""), 0)",,,,2023-07-20 21:24:58,2023-07-20 21:24:58,0.270s,PASSED
+"verifyElementText(findTestObject(""Mobile Repository/Create New Mitra/android.widget.TextView - Nomor Telepon""), ""Nomor Telepon"")",,,,2023-07-20 21:24:58,2023-07-20 21:24:59,0.239s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon""), 0)",,,,2023-07-20 21:24:59,2023-07-20 21:24:59,0.266s,PASSED
+"verifyElementVisible(findTestObject(""Mobile Repository/Create New Mitra/android.widget.ImageButton (contact book button)""), 0)",,,,2023-07-20 21:24:59,2023-07-20 21:24:59,0.241s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Provinsi""), ""Provinsi"")",,,,2023-07-20 21:24:59,2023-07-20 21:25:00,1.253s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Provinsi""), 0)",,,,2023-07-20 21:25:00,2023-07-20 21:25:01,0.268s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kota""), ""Kota"")",,,,2023-07-20 21:25:01,2023-07-20 21:25:01,0.265s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kota""), 0)",,,,2023-07-20 21:25:01,2023-07-20 21:25:01,0.244s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kecamatan""), ""Kecamatan"")",,,,2023-07-20 21:25:01,2023-07-20 21:25:01,0.204s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kecamatan""), 0)",,,,2023-07-20 21:25:01,2023-07-20 21:25:02,0.239s,PASSED
+"swipe(56, 1657, 56, 371)",,swipe up,,2023-07-20 21:25:02,2023-07-20 21:25:03,1.209s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Alamat Mitra""), ""Alamat Mitra"")",,,,2023-07-20 21:25:03,2023-07-20 21:25:03,0.178s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra""), 0)",,,,2023-07-20 21:25:03,2023-07-20 21:25:03,0.147s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kode POS""), ""Kode POS"")",,,,2023-07-20 21:25:03,2023-07-20 21:25:03,0.154s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS""), 0)",,,,2023-07-20 21:25:03,2023-07-20 21:25:03,0.172s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Markup Harga""), ""Markup Harga"")",,,,2023-07-20 21:25:03,2023-07-20 21:25:04,0.148s,PASSED
+"verifyElementVisible(findTestObject(""Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga""), 0)",,,,2023-07-20 21:25:04,2023-07-20 21:25:04,0.148s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.Button - Simpan""), 0)",,,,2023-07-20 21:25:04,2023-07-20 21:25:04,0.229s,PASSED
+"swipe(56, 371, 56, 1657)",,swipe down,,2023-07-20 21:25:04,2023-07-20 21:25:05,1.145s,PASSED
+"tap(findTestObject(""Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap""), 0, STOP_ON_FAILURE)",,,,2023-07-20 21:25:05,2023-07-20 21:25:06,1.061s,PASSED
+"setText(findTestObject(""Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap""), ""A"", 0)",,,,2023-07-20 21:25:06,2023-07-20 21:25:08,1.756s,PASSED
+hideKeyboard(),,,,2023-07-20 21:25:08,2023-07-20 21:25:09,0.651s,PASSED
+"verifyElementText(findTestObject(""Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Nama Lengkap)""), ""Isi minimal 3 karakter"", STOP_ON_FAILURE)",,,,2023-07-20 21:25:09,2023-07-20 21:25:09,0.666s,PASSED
+"tap(findTestObject(""Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap""), 0, STOP_ON_FAILURE)",,,,2023-07-20 21:25:09,2023-07-20 21:25:10,0.351s,PASSED
+"clearText(findTestObject(""Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap""), 0, STOP_ON_FAILURE)",,,,2023-07-20 21:25:10,2023-07-20 21:25:10,0.684s,PASSED
+hideKeyboard(),,,,2023-07-20 21:25:10,2023-07-20 21:25:11,0.522s,PASSED
+"verifyElementText(findTestObject(""Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Nama Lengkap)""), ""Nama harus diisi"", STOP_ON_FAILURE)",,,,2023-07-20 21:25:11,2023-07-20 21:25:12,0.691s,PASSED
+"setText(findTestObject(""Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap""), fullname, 0)",,,,2023-07-20 21:25:12,2023-07-20 21:25:13,1.338s,PASSED
+"tap(findTestObject(""Mobile Repository/Create New Mitra/android.widget.ImageButton (contact book button)""), 0, STOP_ON_FAILURE)",,,,2023-07-20 21:25:13,2023-07-20 21:25:14,0.840s,PASSED
+"if (verifyElementVisible(findTestObject(""Mobile Repository/Create New Mitra/android.widget.Button - IZINKAN (button izinkan read contact)""), 3, OPTIONAL))",,,,2023-07-20 21:25:14,2023-07-20 21:25:17,3.151s,PASSED
+pressBack(),,,,2023-07-20 21:25:17,2023-07-20 21:25:17,0.548s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon""), 0, STOP_ON_FAILURE)",,,,2023-07-20 21:25:17,2023-07-20 21:25:19,1.603s,PASSED
+"setText(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon""), ""089"", 0)",,,,2023-07-20 21:25:19,2023-07-20 21:25:21,1.796s,PASSED
+hideKeyboard(),,,,2023-07-20 21:25:21,2023-07-20 21:25:21,0.491s,PASSED
+"verifyElementText(findTestObject(""Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Nomor Telepon)""), ""Minimal 6 Digit"", STOP_ON_FAILURE)",,,,2023-07-20 21:25:21,2023-07-20 21:25:22,1.117s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon""), 0, STOP_ON_FAILURE)",,,,2023-07-20 21:25:22,2023-07-20 21:25:23,0.288s,PASSED
+"clearText(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon""), 0, STOP_ON_FAILURE)",,,,2023-07-20 21:25:23,2023-07-20 21:25:23,0.635s,PASSED
+hideKeyboard(),,,,2023-07-20 21:25:23,2023-07-20 21:25:24,0.411s,PASSED
+"verifyElementText(findTestObject(""Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Nomor Telepon)""), ""Nomor Telepon harus diisi"", STOP_ON_FAILURE)",,,,2023-07-20 21:25:24,2023-07-20 21:25:24,0.720s,PASSED
+"setText(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon""), phonenum, 0)",,,,2023-07-20 21:25:24,2023-07-20 21:25:26,1.332s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Provinsi""), 0)",,,,2023-07-20 21:25:26,2023-07-20 21:25:27,0.827s,PASSED
+"tap(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)""), 0)",,,,2023-07-20 21:25:27,2023-07-20 21:25:28,0.944s,PASSED
+"setText(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)""), ""dummy"", 0)",,,,2023-07-20 21:25:28,2023-07-20 21:25:30,2.260s,PASSED
+"waitForElementPresent(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)""), 10)",,,,2023-07-20 21:25:30,2023-07-20 21:25:31,0.755s,PASSED
+"verifyElementVisible(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)""), 0)",,,,2023-07-20 21:25:31,2023-07-20 21:25:31,0.198s,PASSED
+"verifyElementText(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.TextView - Data xXx tidak ditemukan (provinsi,kota,kecamatan)""), ""Data provinsi tidak ditemukan"")",,,,2023-07-20 21:25:31,2023-07-20 21:25:31,0.166s,PASSED
+"tap(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)""), 0)",,,,2023-07-20 21:25:31,2023-07-20 21:25:31,0.224s,PASSED
+"clearText(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)""), 0)",,,,2023-07-20 21:25:31,2023-07-20 21:25:32,0.677s,PASSED
+"setText(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)""), ""Jawa Barat"", 0)",,,,2023-07-20 21:25:32,2023-07-20 21:25:34,2.324s,PASSED
+hideKeyboard(),,,,2023-07-20 21:25:34,2023-07-20 21:25:35,0.680s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-20 21:25:35,2023-07-20 21:25:38,3.066s,PASSED
+"tap(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.LinearLayout (search result)""), 0)",,,,2023-07-20 21:25:38,2023-07-20 21:25:39,1.098s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kota""), 0)",,,,2023-07-20 21:25:39,2023-07-20 21:25:39,0.382s,PASSED
+"tap(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)""), 0)",,,,2023-07-20 21:25:39,2023-07-20 21:25:40,0.976s,PASSED
+"setText(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)""), ""dummy"", 0)",,,,2023-07-20 21:25:40,2023-07-20 21:25:43,2.303s,PASSED
+"waitForElementPresent(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)""), 10)",,,,2023-07-20 21:25:43,2023-07-20 21:25:43,0.733s,PASSED
+"verifyElementVisible(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)""), 0)",,,,2023-07-20 21:25:43,2023-07-20 21:25:44,0.189s,PASSED
+"verifyElementText(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.TextView - Data xXx tidak ditemukan (provinsi,kota,kecamatan)""), ""Data kota tidak ditemukan"")",,,,2023-07-20 21:25:44,2023-07-20 21:25:44,0.141s,PASSED
+"tap(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)""), 0)",,,,2023-07-20 21:25:44,2023-07-20 21:25:44,0.200s,PASSED
+"clearText(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)""), 0)",,,,2023-07-20 21:25:44,2023-07-20 21:25:45,0.665s,PASSED
+"setText(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)""), ""Kota cimahi"", 0)",,,,2023-07-20 21:25:45,2023-07-20 21:25:47,2.271s,PASSED
+hideKeyboard(),,,,2023-07-20 21:25:47,2023-07-20 21:25:47,0.482s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-20 21:25:47,2023-07-20 21:25:50,3.018s,PASSED
+"tap(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.LinearLayout (search result)""), 0)",,,,2023-07-20 21:25:50,2023-07-20 21:25:51,0.987s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kecamatan""), 0)",,,,2023-07-20 21:25:51,2023-07-20 21:25:52,0.288s,PASSED
+"tap(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)""), 0)",,,,2023-07-20 21:25:52,2023-07-20 21:25:53,0.973s,PASSED
+"setText(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)""), ""dummy"", 0)",,,,2023-07-20 21:25:53,2023-07-20 21:25:55,2.255s,PASSED
+"waitForElementPresent(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)""), 10)",,,,2023-07-20 21:25:55,2023-07-20 21:25:56,0.727s,PASSED
+"verifyElementVisible(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)""), 0)",,,,2023-07-20 21:25:56,2023-07-20 21:25:56,0.185s,PASSED
+"verifyElementText(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.TextView - Data xXx tidak ditemukan (provinsi,kota,kecamatan)""), ""Data kecamatan tidak ditemukan"")",,,,2023-07-20 21:25:56,2023-07-20 21:25:56,0.169s,PASSED
+"tap(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)""), 0)",,,,2023-07-20 21:25:56,2023-07-20 21:25:56,0.237s,PASSED
+"clearText(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)""), 0)",,,,2023-07-20 21:25:56,2023-07-20 21:25:57,0.672s,PASSED
+"setText(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)""), ""cimahi utara"", 0)",,,,2023-07-20 21:25:57,2023-07-20 21:25:59,2.234s,PASSED
+hideKeyboard(),,,,2023-07-20 21:25:59,2023-07-20 21:26:00,0.466s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-07-20 21:26:00,2023-07-20 21:26:03,3.022s,PASSED
+"tap(findTestObject(""Mobile Repository/Create New Mitra/Province,city,district/android.widget.LinearLayout (search result)""), 0)",,,,2023-07-20 21:26:03,2023-07-20 21:26:04,1.020s,PASSED
+"swipe(56, 1657, 56, 371)",,swipe up,,2023-07-20 21:26:04,2023-07-20 21:26:05,1.134s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra""), 0, STOP_ON_FAILURE)",,,,2023-07-20 21:26:05,2023-07-20 21:26:06,1.072s,PASSED
+"setText(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra""), ""Ad"", 0)",,,,2023-07-20 21:26:06,2023-07-20 21:26:08,1.732s,PASSED
+hideKeyboard(),,,,2023-07-20 21:26:08,2023-07-20 21:26:08,0.602s,PASSED
+"verifyElementText(findTestObject(""Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Alamat Mitra)""), ""Isi minimal 10 karakter"", STOP_ON_FAILURE)",,,,2023-07-20 21:26:08,2023-07-20 21:26:09,0.675s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra""), 0, STOP_ON_FAILURE)",,,,2023-07-20 21:26:09,2023-07-20 21:26:09,0.265s,PASSED
+"clearText(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra""), 0, STOP_ON_FAILURE)",,,,2023-07-20 21:26:09,2023-07-20 21:26:11,1.730s,PASSED
+hideKeyboard(),,,,2023-07-20 21:26:11,2023-07-20 21:26:11,0.517s,PASSED
+"verifyElementText(findTestObject(""Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Alamat Mitra)""), ""Alamat harus diisi"", STOP_ON_FAILURE)",,,,2023-07-20 21:26:11,2023-07-20 21:26:12,0.787s,PASSED
+"setText(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra""), address, 0)",,,,2023-07-20 21:26:12,2023-07-20 21:26:14,1.748s,PASSED
+hideKeyboard(),,,,2023-07-20 21:26:14,2023-07-20 21:26:14,0.262s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS""), 0)",,,,2023-07-20 21:26:14,2023-07-20 21:26:16,1.436s,PASSED
+"setText(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS""), ""99"", 0)",,,,2023-07-20 21:26:16,2023-07-20 21:26:17,1.610s,PASSED
+hideKeyboard(),,,,2023-07-20 21:26:17,2023-07-20 21:26:18,0.434s,PASSED
+"verifyElementText(findTestObject(""Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Alamat Mitra)""), ""Isi minimal 3 karakter"", STOP_ON_FAILURE)",,,,2023-07-20 21:26:18,2023-07-20 21:26:18,0.776s,PASSED
+"tap(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS""), 0)",,,,2023-07-20 21:26:18,2023-07-20 21:26:19,0.313s,PASSED
+"clearText(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS""), 0)",,,,2023-07-20 21:26:19,2023-07-20 21:26:20,1.190s,PASSED
+hideKeyboard(),,,,2023-07-20 21:26:20,2023-07-20 21:26:20,0.419s,PASSED
+"verifyElementText(findTestObject(""Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Alamat Mitra)""), ""Kode Pos harus diisi"", STOP_ON_FAILURE)",,,,2023-07-20 21:26:20,2023-07-20 21:26:21,0.722s,PASSED
+"setText(findTestObject(""Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS""), ""45102"", 0)",,,,2023-07-20 21:26:21,2023-07-20 21:26:22,0.859s,PASSED
+hideKeyboard(),,,,2023-07-20 21:26:22,2023-07-20 21:26:22,0.274s,PASSED
+"tap(findTestObject(""Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga""), 0)",,,,2023-07-20 21:26:22,2023-07-20 21:26:23,0.561s,PASSED
+"setText(findTestObject(""Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga""), ""1"", 0)",,,,2023-07-20 21:26:23,2023-07-20 21:26:25,2.466s,PASSED
+"clearText(findTestObject(""Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga""), 0)",,,,2023-07-20 21:26:25,2023-07-20 21:26:26,0.782s,PASSED
+hideKeyboard(),,,,2023-07-20 21:26:26,2023-07-20 21:26:26,0.470s,PASSED
+"verifyElementText(findTestObject(""Mobile Repository/Create New Mitra/android.widget.TextView - (valdiasi Makup Harga)""), ""Markup Harga harus disi"", STOP_ON_FAILURE)",,,,2023-07-20 21:26:26,2023-07-20 21:26:27,0.749s,PASSED
+"setText(findTestObject(""Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga""), ""10"", 0)",,,,2023-07-20 21:26:27,2023-07-20 21:26:29,1.321s,PASSED
+hideKeyboard(),,,,2023-07-20 21:26:29,2023-07-20 21:26:29,0.244s,PASSED
+pressBack(),,,,2023-07-20 21:26:29,2023-07-20 21:26:29,0.686s,PASSED
+pressBack(),,,,2023-07-20 21:26:29,2023-07-20 21:26:30,0.828s,PASSED
+pressBack(),,,,2023-07-20 21:26:30,2023-07-20 21:26:31,0.556s,PASSED

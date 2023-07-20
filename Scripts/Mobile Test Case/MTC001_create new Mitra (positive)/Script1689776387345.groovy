@@ -18,15 +18,28 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.github.javafaker.Faker as Faker
 
+Faker faker = new Faker(new Locale('in-ID') //call javaFaker
+)
+
+String fullname = faker.name().fullName( //generate random name
+    )
+
+String phonenum = faker.phoneNumber().phoneNumber( //generate random phonenumber
+    )
+
+phonenum = phonenum.replace('-', '' //replace if any '-' becomes empty string ''
+    )
+
+phonenum = phonenum.replace('+62', '0' //replace if there is '+62' it becomes empty string '0'
+    )
+
+phonenum = phonenum.replace('080', '088' //replace if there is '080' it becomes empty string '088'
+    )
+
+String address = faker.address().fullAddress( //generate random address
+    )
+
 Mobile.startExistingApplication(GlobalVariable.AppID)
-
-Faker faker = new Faker(new Locale('in-ID'))
-
-String fullname = faker.name().fullName()
-
-String phonenum = faker.phoneNumber().phoneNumber()
-
-String address = faker.address().fullAddress()
 
 Mobile.tap(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kemitraan'), 0)
 
@@ -89,7 +102,8 @@ Mobile.verifyElementVisible(findTestObject('Object Repository/Mobile Repository/
 Mobile.verifyElementText(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Markup Harga'), 
     'Markup Harga')
 
-Mobile.verifyElementVisible(findTestObject('Mobile Repository/android.widget.EditText - Masukkan markup harga'), 0)
+Mobile.verifyElementVisible(findTestObject('Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga'), 
+    0)
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.Button - Simpan'), 
     0)
@@ -171,13 +185,20 @@ Mobile.tap(findTestObject('Object Repository/Mobile Repository/Create New Mitra/
     0)
 
 Mobile.setText(findTestObject('Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS'), 
-    '0010', 0)
+    '45102', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Mobile Repository/android.widget.EditText - Masukkan markup harga'), 0)
+Mobile.tap(findTestObject('Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga'), 0)
 
-Mobile.setText(findTestObject('Mobile Repository/android.widget.EditText - Masukkan markup harga'), '10', 0)
+Mobile.setText(findTestObject('Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga'), '10', 
+    0)
 
 Mobile.hideKeyboard()
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.pressBack()
 

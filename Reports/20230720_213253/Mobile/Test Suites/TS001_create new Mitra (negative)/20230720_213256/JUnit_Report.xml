@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS001_create new Mitra (negative)" time="120.605" tests="1" failures="0" errors="0">
+   <testsuite name="TS001_create new Mitra (negative)" tests="1" failures="0" errors="0" time="120.605" skipped="0" timestamp="2023-07-20 21:35:01" hostname="topindoku - localhost" id="Test Suites/Mobile/Test Suites/TS001_create new Mitra (negative)">
+      <properties>
+         <property name="deviceName" value="samsung SM-G996B (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/topindoku/git/Mobile-UI-Test-with-Katalon-Studio/Reports/20230720_213253/Mobile/Test Suites/TS001_create new Mitra (negative)/20230720_213256"/>
+         <property name="logFiles" value="/Users/topindoku/git/Mobile-UI-Test-with-Katalon-Studio/Reports/20230720_213253/Mobile/Test Suites/TS001_create new Mitra (negative)/20230720_213256/execution0.log, /Users/topindoku/git/Mobile-UI-Test-with-Katalon-Studio/Reports/20230720_213253/Mobile/Test Suites/TS001_create new Mitra (negative)/20230720_213256/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="topindoku - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-G996B"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RRCR4008JAE"/>
+         <property name="deviceName" value="samsung SM-G996B (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Mobile Test Case/MTC001_create new Mitra (negative)" time="120.241" classname="Test Cases/Mobile Test Case/MTC001_create new Mitra (negative)" status="PASSED">
+         <system-out><![CDATA[2023-07-20 21:35:01 - [TEST_CASE][PASSED] - Test Cases/Mobile Test Case/MTC001_create new Mitra (negative): Test Cases/Mobile Test Case/MTC001_create new Mitra (negative)
+
+2023-07-20 21:35:02 - [TEST_STEP][PASSED] - faker = new com.github.javafaker.Faker(new java.util.Locale(in-ID)): null
+
+2023-07-20 21:35:02 - [TEST_STEP][PASSED] - fullname = name().fullName(): null
+
+2023-07-20 21:35:02 - [TEST_STEP][PASSED] - phonenum = phoneNumber().phoneNumber(): null
+
+2023-07-20 21:35:02 - [TEST_STEP][PASSED] - phonenum = phonenum.replace("-", ""): null
+
+2023-07-20 21:35:02 - [TEST_STEP][PASSED] - phonenum = phonenum.replace("+62", "0"): null
+
+2023-07-20 21:35:02 - [TEST_STEP][PASSED] - phonenum = phonenum.replace("080", "088"): null
+
+2023-07-20 21:35:02 - [TEST_STEP][PASSED] - address = address().fullAddress(): null
+
+2023-07-20 21:35:02 - [TEST_STEP][PASSED] - startExistingApplication(AppID): Starting app with application ID: 'com.topindo.android'
+
+2023-07-20 21:35:03 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/20.1.0/bin/node"
+
+2023-07-20 21:35:04 - [MESSAGE][INFO] - Appium server started on port 57,029
+
+2023-07-20 21:35:15 - [MESSAGE][PASSED] - Starting app with application ID: 'com.topindo.android'
+
+2023-07-20 21:35:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kemitraan"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kemitraan'
+
+2023-07-20 21:35:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kemitraan'
+
+2023-07-20 21:35:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Mitra Saya"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Mitra Saya'
+
+2023-07-20 21:35:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Mitra Saya'
+
+2023-07-20 21:35:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.ImageButton (add button)"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.ImageButton (add button)'
+
+2023-07-20 21:35:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.ImageButton (add button)'
+
+2023-07-20 21:35:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Tambahkan Mitra"), "Tambahkan Mitra"): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Tambahkan Mitra' are matched.
+
+2023-07-20 21:35:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Tambahkan Mitra' are matched.
+
+2023-07-20 21:35:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Nama Lengkap"), "Nama Lengkap"): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Nama Lengkap' are matched.
+
+2023-07-20 21:35:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Nama Lengkap' are matched.
+
+2023-07-20 21:35:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap' is visible
+
+2023-07-20 21:35:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:29 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap' is visible
+
+2023-07-20 21:35:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile Repository/Create New Mitra/android.widget.TextView - Nomor Telepon"), "Nomor Telepon"): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Nomor Telepon' are matched.
+
+2023-07-20 21:35:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Nomor Telepon' are matched.
+
+2023-07-20 21:35:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon' is visible
+
+2023-07-20 21:35:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:30 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon' is visible
+
+2023-07-20 21:35:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Mobile Repository/Create New Mitra/android.widget.ImageButton (contact book button)"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.ImageButton (contact book button)' is visible
+
+2023-07-20 21:35:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:31 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.ImageButton (contact book button)' is visible
+
+2023-07-20 21:35:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Provinsi"), "Provinsi"): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Provinsi' are matched.
+
+2023-07-20 21:35:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Provinsi' are matched.
+
+2023-07-20 21:35:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Provinsi"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Provinsi' is visible
+
+2023-07-20 21:35:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:31 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Provinsi' is visible
+
+2023-07-20 21:35:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kota"), "Kota"): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kota' are matched.
+
+2023-07-20 21:35:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kota' are matched.
+
+2023-07-20 21:35:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kota"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kota' is visible
+
+2023-07-20 21:35:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:32 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kota' is visible
+
+2023-07-20 21:35:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kecamatan"), "Kecamatan"): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kecamatan' are matched.
+
+2023-07-20 21:35:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kecamatan' are matched.
+
+2023-07-20 21:35:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kecamatan"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kecamatan' is visible
+
+2023-07-20 21:35:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:32 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kecamatan' is visible
+
+2023-07-20 21:35:32 - [TEST_STEP][PASSED] - swipe(56, 1657, 56, 371): Swiped from 56,1,657 to 56,371
+
+2023-07-20 21:35:33 - [MESSAGE][PASSED] - Swiped from 56,1,657 to 56,371
+
+2023-07-20 21:35:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Alamat Mitra"), "Alamat Mitra"): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Alamat Mitra' are matched.
+
+2023-07-20 21:35:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Alamat Mitra' are matched.
+
+2023-07-20 21:35:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra' is visible
+
+2023-07-20 21:35:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:34 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra' is visible
+
+2023-07-20 21:35:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kode POS"), "Kode POS"): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kode POS' are matched.
+
+2023-07-20 21:35:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Kode POS' are matched.
+
+2023-07-20 21:35:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS' is visible
+
+2023-07-20 21:35:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:34 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS' is visible
+
+2023-07-20 21:35:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Markup Harga"), "Markup Harga"): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Markup Harga' are matched.
+
+2023-07-20 21:35:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Markup Harga' are matched.
+
+2023-07-20 21:35:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga' is visible
+
+2023-07-20 21:35:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:34 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga' is visible
+
+2023-07-20 21:35:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.Button - Simpan"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.Button - Simpan' is visible
+
+2023-07-20 21:35:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:35 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.Button - Simpan' is visible
+
+2023-07-20 21:35:35 - [TEST_STEP][PASSED] - swipe(56, 371, 56, 1657): Swiped from 56,371 to 56,1,657
+
+2023-07-20 21:35:36 - [MESSAGE][PASSED] - Swiped from 56,371 to 56,1,657
+
+2023-07-20 21:35:36 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap'
+
+2023-07-20 21:35:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap'
+
+2023-07-20 21:35:37 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap"), "A", 0): Text 'A' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap'
+
+2023-07-20 21:35:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:39 - [MESSAGE][PASSED] - Text 'A' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap'
+
+2023-07-20 21:35:39 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-20 21:35:39 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-20 21:35:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Nama Lengkap)"), "Isi minimal 3 karakter", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Nama Lengkap)' are matched.
+
+2023-07-20 21:35:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Nama Lengkap)' are matched.
+
+2023-07-20 21:35:40 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap'
+
+2023-07-20 21:35:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap'
+
+2023-07-20 21:35:40 - [TEST_STEP][PASSED] - clearText(findTestObject("Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap"), 0, STOP_ON_FAILURE): Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap' text is cleared
+
+2023-07-20 21:35:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:41 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap' text is cleared
+
+2023-07-20 21:35:41 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-20 21:35:41 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-20 21:35:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Nama Lengkap)"), "Nama harus diisi", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Nama Lengkap)' are matched.
+
+2023-07-20 21:35:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Nama Lengkap)' are matched.
+
+2023-07-20 21:35:42 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap"), fullname, 0): Text 'Ferdian Taslim' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap'
+
+2023-07-20 21:35:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:44 - [MESSAGE][PASSED] - Text 'Ferdian Taslim' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nama Lengkap'
+
+2023-07-20 21:35:44 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Repository/Create New Mitra/android.widget.ImageButton (contact book button)"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.ImageButton (contact book button)'
+
+2023-07-20 21:35:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.ImageButton (contact book button)'
+
+2023-07-20 21:35:44 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Mobile Repository/Create New Mitra/android.widget.Button - IZINKAN (button izinkan read contact)"), 3, OPTIONAL)): Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.Button - IZINKAN (button izinkan read contact)' not found
+
+2023-07-20 21:35:48 - [MESSAGE][WARNING] - Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.Button - IZINKAN (button izinkan read contact)' not found
+
+2023-07-20 21:35:48 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-20 21:35:48 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-20 21:35:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon'
+
+2023-07-20 21:35:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon'
+
+2023-07-20 21:35:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon"), "089", 0): Text '089' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon'
+
+2023-07-20 21:35:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:51 - [MESSAGE][PASSED] - Text '089' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon'
+
+2023-07-20 21:35:51 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-20 21:35:52 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-20 21:35:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Nomor Telepon)"), "Minimal 6 Digit", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Nomor Telepon)' are matched.
+
+2023-07-20 21:35:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Nomor Telepon)' are matched.
+
+2023-07-20 21:35:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon'
+
+2023-07-20 21:35:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon'
+
+2023-07-20 21:35:53 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon"), 0, STOP_ON_FAILURE): Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon' text is cleared
+
+2023-07-20 21:35:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:54 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon' text is cleared
+
+2023-07-20 21:35:54 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-20 21:35:54 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-20 21:35:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Nomor Telepon)"), "Nomor Telepon harus diisi", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Nomor Telepon)' are matched.
+
+2023-07-20 21:35:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Nomor Telepon)' are matched.
+
+2023-07-20 21:35:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon"), phonenum, 0): Text '08933054987' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon'
+
+2023-07-20 21:35:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:56 - [MESSAGE][PASSED] - Text '08933054987' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Nomor Telepon'
+
+2023-07-20 21:35:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Provinsi"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Provinsi'
+
+2023-07-20 21:35:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Provinsi'
+
+2023-07-20 21:35:57 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:35:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:35:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:35:58 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)"), "dummy", 0): Text 'dummy' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:35:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:01 - [MESSAGE][PASSED] - Text 'dummy' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)"), 10): Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)' is present
+
+2023-07-20 21:36:01 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)' is present
+
+2023-07-20 21:36:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)' is visible
+
+2023-07-20 21:36:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:01 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)' is visible
+
+2023-07-20 21:36:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.TextView - Data xXx tidak ditemukan (provinsi,kota,kecamatan)"), "Data provinsi tidak ditemukan"): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.TextView - Data xXx tidak ditemukan (provinsi,kota,kecamatan)' are matched.
+
+2023-07-20 21:36:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.TextView - Data xXx tidak ditemukan (provinsi,kota,kecamatan)' are matched.
+
+2023-07-20 21:36:02 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:02 - [TEST_STEP][PASSED] - clearText(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)' text is cleared
+
+2023-07-20 21:36:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:03 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)' text is cleared
+
+2023-07-20 21:36:03 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)"), "Jawa Barat", 0): Text 'Jawa Barat' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:05 - [MESSAGE][PASSED] - Text 'Jawa Barat' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:05 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-20 21:36:05 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-20 21:36:05 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-07-20 21:36:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-20 21:36:08 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.LinearLayout (search result)"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.LinearLayout (search result)'
+
+2023-07-20 21:36:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.LinearLayout (search result)'
+
+2023-07-20 21:36:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kota"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kota'
+
+2023-07-20 21:36:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kota'
+
+2023-07-20 21:36:10 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:12 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)"), "dummy", 0): Text 'dummy' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:13 - [MESSAGE][PASSED] - Text 'dummy' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)"), 10): Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)' is present
+
+2023-07-20 21:36:14 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)' is present
+
+2023-07-20 21:36:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)' is visible
+
+2023-07-20 21:36:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:14 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)' is visible
+
+2023-07-20 21:36:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.TextView - Data xXx tidak ditemukan (provinsi,kota,kecamatan)"), "Data kota tidak ditemukan"): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.TextView - Data xXx tidak ditemukan (provinsi,kota,kecamatan)' are matched.
+
+2023-07-20 21:36:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.TextView - Data xXx tidak ditemukan (provinsi,kota,kecamatan)' are matched.
+
+2023-07-20 21:36:15 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:15 - [TEST_STEP][PASSED] - clearText(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)' text is cleared
+
+2023-07-20 21:36:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:16 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)' text is cleared
+
+2023-07-20 21:36:16 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)"), "Kota cimahi", 0): Text 'Kota cimahi' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:18 - [MESSAGE][PASSED] - Text 'Kota cimahi' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:18 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-20 21:36:18 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-20 21:36:18 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-07-20 21:36:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-20 21:36:21 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.LinearLayout (search result)"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.LinearLayout (search result)'
+
+2023-07-20 21:36:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.LinearLayout (search result)'
+
+2023-07-20 21:36:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kecamatan"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kecamatan'
+
+2023-07-20 21:36:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - Pilih Kecamatan'
+
+2023-07-20 21:36:23 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:24 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)"), "dummy", 0): Text 'dummy' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:26 - [MESSAGE][PASSED] - Text 'dummy' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)"), 10): Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)' is present
+
+2023-07-20 21:36:26 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)' is present
+
+2023-07-20 21:36:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)' is visible
+
+2023-07-20 21:36:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:27 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.ImageView (data illustration not found)' is visible
+
+2023-07-20 21:36:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.TextView - Data xXx tidak ditemukan (provinsi,kota,kecamatan)"), "Data kecamatan tidak ditemukan"): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.TextView - Data xXx tidak ditemukan (provinsi,kota,kecamatan)' are matched.
+
+2023-07-20 21:36:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.TextView - Data xXx tidak ditemukan (provinsi,kota,kecamatan)' are matched.
+
+2023-07-20 21:36:27 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:27 - [TEST_STEP][PASSED] - clearText(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)' text is cleared
+
+2023-07-20 21:36:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:28 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)' text is cleared
+
+2023-07-20 21:36:28 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)"), "cimahi utara", 0): Text 'cimahi utara' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:30 - [MESSAGE][PASSED] - Text 'cimahi utara' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.EditText (search bar)'
+
+2023-07-20 21:36:30 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-20 21:36:31 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-20 21:36:31 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2023-07-20 21:36:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-20 21:36:34 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Repository/Create New Mitra/Province,city,district/android.widget.LinearLayout (search result)"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.LinearLayout (search result)'
+
+2023-07-20 21:36:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/Province,city,district/android.widget.LinearLayout (search result)'
+
+2023-07-20 21:36:35 - [TEST_STEP][PASSED] - swipe(56, 1657, 56, 371): Swiped from 56,1,657 to 56,371
+
+2023-07-20 21:36:36 - [MESSAGE][PASSED] - Swiped from 56,1,657 to 56,371
+
+2023-07-20 21:36:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra'
+
+2023-07-20 21:36:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra'
+
+2023-07-20 21:36:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra"), "Ad", 0): Text 'Ad' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra'
+
+2023-07-20 21:36:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:39 - [MESSAGE][PASSED] - Text 'Ad' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra'
+
+2023-07-20 21:36:39 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-20 21:36:39 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-20 21:36:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Alamat Mitra)"), "Isi minimal 10 karakter", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Alamat Mitra)' are matched.
+
+2023-07-20 21:36:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Alamat Mitra)' are matched.
+
+2023-07-20 21:36:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra'
+
+2023-07-20 21:36:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra'
+
+2023-07-20 21:36:40 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra"), 0, STOP_ON_FAILURE): Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra' text is cleared
+
+2023-07-20 21:36:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:41 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra' text is cleared
+
+2023-07-20 21:36:41 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-20 21:36:42 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-20 21:36:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Alamat Mitra)"), "Alamat harus diisi", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Alamat Mitra)' are matched.
+
+2023-07-20 21:36:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Alamat Mitra)' are matched.
+
+2023-07-20 21:36:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra"), address, 0): Text 'Apt. 071 Jl. Gatot Soebroto No. 69, Bandung, NV 09698' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra'
+
+2023-07-20 21:36:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:44 - [MESSAGE][PASSED] - Text 'Apt. 071 Jl. Gatot Soebroto No. 69, Bandung, NV 09698' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Alamat Mitra'
+
+2023-07-20 21:36:44 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-20 21:36:44 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-20 21:36:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS'
+
+2023-07-20 21:36:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS'
+
+2023-07-20 21:36:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS"), "99", 0): Text '99' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS'
+
+2023-07-20 21:36:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:47 - [MESSAGE][PASSED] - Text '99' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS'
+
+2023-07-20 21:36:47 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-20 21:36:48 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-20 21:36:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Alamat Mitra)"), "Isi minimal 3 karakter", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Alamat Mitra)' are matched.
+
+2023-07-20 21:36:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Alamat Mitra)' are matched.
+
+2023-07-20 21:36:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS'
+
+2023-07-20 21:36:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS'
+
+2023-07-20 21:36:49 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS' text is cleared
+
+2023-07-20 21:36:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:50 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS' text is cleared
+
+2023-07-20 21:36:50 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-20 21:36:50 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-20 21:36:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Alamat Mitra)"), "Kode Pos harus diisi", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Alamat Mitra)' are matched.
+
+2023-07-20 21:36:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (validasi Alamat Mitra)' are matched.
+
+2023-07-20 21:36:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS"), "45102", 0): Text '45102' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS'
+
+2023-07-20 21:36:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:52 - [MESSAGE][PASSED] - Text '45102' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan Kode POS'
+
+2023-07-20 21:36:52 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-20 21:36:53 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-20 21:36:53 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga"), 0): Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga'
+
+2023-07-20 21:36:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga'
+
+2023-07-20 21:36:54 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga"), "1", 0): Text '1' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga'
+
+2023-07-20 21:36:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:56 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga'
+
+2023-07-20 21:36:56 - [TEST_STEP][PASSED] - clearText(findTestObject("Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga"), 0): Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga' text is cleared
+
+2023-07-20 21:36:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:57 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga' text is cleared
+
+2023-07-20 21:36:57 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-20 21:36:57 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-20 21:36:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile Repository/Create New Mitra/android.widget.TextView - (valdiasi Makup Harga)"), "Markup Harga harus disi", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (valdiasi Makup Harga)' are matched.
+
+2023-07-20 21:36:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Repository/Create New Mitra/android.widget.TextView - (valdiasi Makup Harga)' are matched.
+
+2023-07-20 21:36:58 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga"), "10", 0): Text '10' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga'
+
+2023-07-20 21:36:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-07-20 21:36:59 - [MESSAGE][PASSED] - Text '10' has been set to element 'Object Repository/Mobile Repository/Create New Mitra/android.widget.EditText - Masukkan markup harga'
+
+2023-07-20 21:36:59 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-20 21:36:59 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-20 21:36:59 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-20 21:37:00 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-20 21:37:00 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-20 21:37:01 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-20 21:37:01 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-20 21:37:01 - [MESSAGE][PASSED] - Press back button successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-20 21:35:01 - [TEST_SUITE][PASSED] - TS001_create new Mitra (negative): Test Cases/Mobile Test Case/MTC001_create new Mitra (negative)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

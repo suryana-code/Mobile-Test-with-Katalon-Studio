@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.widget.EditText - Masukkan Kode POS</name>
+   <name>android.widget.TextView - (validasi Nomor Telepon)</name>
    <tag></tag>
-   <elementGuidId>4e387a0c-edc1-4594-8d88-dfbf59cc6586</elementGuidId>
+   <elementGuidId>5c6e3fa3-24b0-46ad-932e-dd482b42941c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,8 +11,8 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.widget.EditText</value>
-      <webElementGuid>8ecc459e-331e-425b-8e8a-be8c69b7c18e</webElementGuid>
+      <value>android.widget.TextView</value>
+      <webElementGuid>e401af6a-39e0-4f45-9a5e-dd4199497d71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,23 +20,23 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>a508ec5f-2486-41fa-9308-ba75b596f6a0</webElementGuid>
+      <webElementGuid>e7b7bc90-4c07-4610-9ead-36664bfafec3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Masukkan Kode POS</value>
-      <webElementGuid>8927fa17-c511-4ffb-8180-c77a708e58d8</webElementGuid>
+      <value>Minimal 6 Digit</value>
+      <webElementGuid>f9ad133b-ce32-41a3-9675-000a50715e77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.topindo.android:id/inputPostalCode</value>
-      <webElementGuid>8a7932b4-200e-4f7c-ae7d-0d06c791e0fd</webElementGuid>
+      <value>com.topindo.android:id/textinput_error</value>
+      <webElementGuid>9269fc4c-12bd-4706-85fe-2a6e966c8443</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.topindo.android</value>
-      <webElementGuid>d2c91331-cb9c-4183-b8dd-ade9f7c151c5</webElementGuid>
+      <webElementGuid>79c85af1-74d9-48df-a06b-0ceecf377ebb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a819d0b5-04e8-4793-9504-b3658d63c8b6</webElementGuid>
+      <webElementGuid>e8060cec-9179-4e3b-b205-f5e263408d35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,15 +60,15 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>06353e88-c484-45e4-b770-21106cf56591</webElementGuid>
+      <webElementGuid>f42de082-8df3-4468-a578-ce1778d42df6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>4489b04b-7e9e-419d-bb00-0beab04f6315</webElementGuid>
+      <value>false</value>
+      <webElementGuid>7481489c-6c20-49af-a592-98ca66a6be0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,15 +76,15 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>4e6fcae9-0bb4-4828-a0e5-d24b41f658bd</webElementGuid>
+      <webElementGuid>205e476c-37c8-4c05-b846-1f482efc1ba4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focusable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>3bf220f5-77eb-4418-85ed-07b95357193e</webElementGuid>
+      <value>false</value>
+      <webElementGuid>b45fb974-fec0-457e-814f-71168e480cf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>65a868b9-846e-47a2-8f62-e67c819386bb</webElementGuid>
+      <webElementGuid>0d777639-af6f-4f18-a346-a615b71d825a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,15 +100,15 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5716819a-57be-43e1-a71c-06293e82cd0a</webElementGuid>
+      <webElementGuid>2d7ca812-00b0-4175-92c9-b2f4bc61aa1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>long-clickable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>8c34c150-73f0-44bd-8d61-3e34cba22f5c</webElementGuid>
+      <value>false</value>
+      <webElementGuid>a4ac2270-a7e8-4c51-940f-817ef74e56e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8568a9bf-cb8f-4197-a60c-dfc91afbb664</webElementGuid>
+      <webElementGuid>06c57148-9db9-4b71-a18e-c0af8e170fac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,47 +124,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>c140b466-2d90-400b-bceb-e18c2a7fc931</webElementGuid>
+      <webElementGuid>2d49e312-7d4d-492c-b6b6-544b79404885</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>56</value>
-      <webElementGuid>d8705d0f-b160-4fd4-ad0f-1565b17ebf60</webElementGuid>
+      <value>101</value>
+      <webElementGuid>73a99580-029e-49e8-b7fe-1d058a04649d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>1620</value>
-      <webElementGuid>1c458916-5d0c-461c-ab89-67f87ba78c46</webElementGuid>
+      <value>833</value>
+      <webElementGuid>154a8856-97f0-4a81-93c5-80bf20d530d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>968</value>
-      <webElementGuid>63abd7f0-23c4-41a5-a30c-34b084ecf7aa</webElementGuid>
+      <value>878</value>
+      <webElementGuid>438dc23d-a8e5-4cc7-b90f-fb352a062452</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>123</value>
-      <webElementGuid>4d981c75-6cb8-4c45-b90f-34a1aacdd668</webElementGuid>
+      <value>46</value>
+      <webElementGuid>4d885350-e19f-44b7-93e6-177d43a21afe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[56,1620][1024,1743]</value>
-      <webElementGuid>10553097-bc4b-4dd7-a6fb-f3b0a3c9d3f7</webElementGuid>
+      <value>[101,833][979,879]</value>
+      <webElementGuid>244d57c4-f01b-4d70-bfa2-3df5142c98fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -172,16 +172,16 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>90ca3f90-b1c2-47a5-b665-e98a085f54df</webElementGuid>
+      <webElementGuid>daa31282-bf0c-4c67-8608-1627331b5bce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[10]/android.widget.FrameLayout[1]/android.widget.EditText[1]</value>
-      <webElementGuid>69ca465c-3781-4dc8-a782-1b4d708c6ae0</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.TextView[1]</value>
+      <webElementGuid>0ea7bbef-7604-4fd6-8903-344e715030d2</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.EditText' and @resource-id = 'com.topindo.android:id/inputPostalCode']</locator>
+   <locator>//*[@class = 'android.widget.TextView' and @resource-id = 'com.topindo.android:id/textinput_error']</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>
