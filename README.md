@@ -1,5 +1,4 @@
 # Mobile-UI-Test-with-Katalon-Studio
-Testing Mobile UI Test using Katalon Studio
 
 [![GitHub issues](https://img.shields.io/github/issues/suryana-code/Mobile-UI-Test-with-Katalon-Studio)](https://github.com/suryana-code/Mobile-UI-Test-with-Katalon-Studio/issues)
 ![Last Commit](https://img.shields.io/github/last-commit/suryana-code/Mobile-UI-Test-with-Katalon-Studio)
