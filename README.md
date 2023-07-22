@@ -3,8 +3,10 @@
 [![GitHub issues](https://img.shields.io/github/issues/suryana-code/Mobile-UI-Test-with-Katalon-Studio)](https://github.com/suryana-code/Mobile-UI-Test-with-Katalon-Studio/issues)
 ![Last Commit](https://img.shields.io/github/last-commit/suryana-code/Mobile-UI-Test-with-Katalon-Studio)
 
+
 ## About this repository
-Hallo semua, ini merupakan repository mengenai pengujian UI menggunakan tool Katalon Studio dengan pengujian pada aplikasi android Topindoku versi 3.5.2
+Hello everyone, this is a repository for UI testing using the Katalon Studio tool with testing on the Topindoku android application version 3.5.2
+
 
 ## How to use?
 1. Clone this repository
